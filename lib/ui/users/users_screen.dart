@@ -20,12 +20,18 @@ class _UsersScreenState extends State<UsersScreen> {
       body: ChangeNotifierProvider<UsersModel>(
         create: (context) => UsersModel()..fetchUsers(),
         child: Consumer<UsersModel>(builder: (context, model, child) {
-          return Center(
+          return Padding(
+            padding: const EdgeInsets.all(20),
             child: ListView.builder(
               itemCount: model.users.length,
               itemBuilder: (context, int index) {
                 User user = model.users[index];
-                return Text(user.name);
+                return Card(
+                  child: Padding(
+                    padding: const EdgeInsets.all(10),
+                    child: Text(user.name),
+                  ),
+                );
               },
             ),
           );
