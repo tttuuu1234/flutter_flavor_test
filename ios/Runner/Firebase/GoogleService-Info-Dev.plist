@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>201203457606-5ucpmc8qjchvsr6b9fo3hh7ha55sssv5.apps.googleusercontent.com</string>
+	<string>503532454405-m7nkbrn9v9v3tvk1isgmc585d1rnlafo.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.201203457606-5ucpmc8qjchvsr6b9fo3hh7ha55sssv5</string>
+	<string>com.googleusercontent.apps.503532454405-m7nkbrn9v9v3tvk1isgmc585d1rnlafo</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDy2ukk4L5QUcMUUFdQ-QCCxAS9fmefems</string>
+	<string>AIzaSyC5NQ3jsphMbxkw367oiLIosQyj4kMJaU8</string>
 	<key>GCM_SENDER_ID</key>
-	<string>201203457606</string>
+	<string>503532454405</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.flutterFlavorTest</string>
+	<string>com.flutterFlavorTest.dev</string>
 	<key>PROJECT_ID</key>
-	<string>flutter-flavor-test-d891b</string>
+	<string>flutter-flavor-test-dev</string>
 	<key>STORAGE_BUCKET</key>
-	<string>flutter-flavor-test-d891b.appspot.com</string>
+	<string>flutter-flavor-test-dev.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:201203457606:ios:a9693c9c8bda0a55e13447</string>
+	<string>1:503532454405:ios:3af4c7a9d6727ace53526c</string>
 </dict>
 </plist>

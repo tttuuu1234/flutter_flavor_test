@@ -1,0 +1,5 @@
+FLUTTER_FLAVOR=Stg
+PRODUCT_BUNDLE_IDENTIFIER=com.flutterFlavorTest.stg
+DISPLAY_NAME=Stg flutterFlavorTest
+FLUTTER_TARGET=lib/main.dart
+

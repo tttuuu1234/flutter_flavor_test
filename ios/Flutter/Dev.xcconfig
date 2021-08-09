@@ -1,0 +1,4 @@
+FLUTTER_FLAVOR=Dev
+PRODUCT_BUNDLE_IDENTIFIER=com.flutterFlavorTest.dev
+DISPLAY_NAME=Dev flutterFlavorTest
+FLUTTER_TARGET=lib/main.dart

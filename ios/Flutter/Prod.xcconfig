@@ -1,0 +1,6 @@
+FLUTTER_FLAVOR=Prod
+PRODUCT_BUNDLE_IDENTIFIER=com.flutterFlavorTest
+DISPLAY_NAME=flutterのflavorのテストアプリ
+FLUTTER_TARGET=lib/main.dart
+
+
