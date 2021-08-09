@@ -9,7 +9,9 @@ class UsersModel extends ChangeNotifier {
   List users = <User>[];
 
   Future<void> fetchUsers() async {
+    print('users');
     final results = await _usersCollection.get();
+    print(results);
     users = results.docs
         .map(
           (doc) => User(doc),

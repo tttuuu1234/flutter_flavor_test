@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Flutter_Flavor_Test Debug-Dev",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+          "--debug",
+          "--flavor",
+          "dev",
+          "--dart-define=FLAVOR=dev"
+      ]
+    },
+    {
+      "name": "Flutter_Flavor_Test Release-Stg",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+          "--release",
+          "--flavor",
+          "stg",
+          "--dart-define=FLAVOR=stg"
+      ]
+    },
+    {
+      "name": "Flutter_Flavor_Test Relesae-Prod",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": [
+          "--release",
+          "--flavor",
+          "prod",
+          "--dart-define=FLAVOR=prod"
+      ]
+    },
+  ]
+}
